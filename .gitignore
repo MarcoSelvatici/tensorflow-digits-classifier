@@ -1,0 +1,5 @@
+bazel-bin
+bazel-digits_classifier_prj
+bazel-genfiles
+bazel-out
+bazel-testlogs
