@@ -9,6 +9,10 @@ cc_library(
         ":train-images-idx3-ubyte",
         ":train-labels-idx1-ubyte",
     ],
+
+    visibility = [
+        "//tensorflow/cc/digits_classifier_prj/digits_classifier:__pkg__"
+    ],
 )
 
 cc_test(
