@@ -1,3 +1,5 @@
+// Built with:    bazel run //mnist-loader:loader-test
+
 #include "mnist-loader.hh"
 #include <vector>
 #include <iostream>
